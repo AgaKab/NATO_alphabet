@@ -8,7 +8,7 @@ dict_nato = {row.letter: row.code for (index, row) in df_nato.iterrows()}
 start = True
 
 while start:
-    word = input("Enter a word:").upper()
+    word = input("Enter a word: ").upper()
 
     list_word = [n for n in word]
     # print(list_word)
